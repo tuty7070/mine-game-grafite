@@ -20,6 +20,7 @@ public class trigger : MonoBehaviour
             {
                 GameObject estacoisa = Instantiate(coisa);
                 estacoisa.SetActive(true);
+                
             }
             else
             {
