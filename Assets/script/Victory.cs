@@ -12,10 +12,15 @@ public class Victory : MonoBehaviour
     }
 
     void Check(){
-        if (objetos.TrueForAll(isActiveAndEnabled => true))
+        if (objetos.TrueForAll(IsActive)) 
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Defeat");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("vitoria");
+            
         }
     }
-  
+    bool IsActive(GameObject obj)
+    {
+        return obj.activeSelf;
+    }
+
 }
