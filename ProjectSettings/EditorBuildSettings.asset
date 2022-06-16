@@ -13,5 +13,8 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Defeat.unity
-    guid: 51aabb3d591594a43b5ba54b84966eb1
+    guid: b0e5c97ac36b79544ab6b4ecc7d2c1a9
+  - enabled: 1
+    path: Assets/Scenes/vitoria.unity
+    guid: a830821224f0a7b4b8a295bdd2073c29
   m_configObjects: {}
