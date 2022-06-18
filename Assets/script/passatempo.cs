@@ -8,6 +8,7 @@ public class passatempo : MonoBehaviour
     public float velocity=0.9f;
     public bool myplaying=false;
     public Text mycounter;
+    public GameObject perdeu;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,8 @@ public class passatempo : MonoBehaviour
         if (mytime > 05.00f)
         {
            myplaying = false;
+           perdeu.SetActive(true);
+            //UnityEngine.SceneManagement.SceneManager.LoadScene("Defeat");
         }
     }
 }
